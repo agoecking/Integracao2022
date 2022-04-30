@@ -28,7 +28,7 @@ public class GoogleBookAPI {
 		return googleResp;
 	}
 	
-	public String getJSONResponseFromURL(String url) {
+	private String getJSONResponseFromURL(String url) {
 		StringBuilder content = null;
 		
         try {
