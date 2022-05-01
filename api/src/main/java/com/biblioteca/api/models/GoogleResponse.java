@@ -1,9 +1,9 @@
 package com.biblioteca.api.models;
 
-import java.util.List;
+import java.util.ArrayList;
 
 public class GoogleResponse {
 	public String kind;
 	public int totalItems;
-	public List<GoogleItem> items;
+	public ArrayList<GoogleItem> items;
 }
