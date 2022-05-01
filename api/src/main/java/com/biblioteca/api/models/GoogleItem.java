@@ -6,4 +6,5 @@ public class GoogleItem {
 	public String etag;
 	public String selfLink;
 	public GoogleItemVolInfo volumeInfo;
+	public GoogleItemSaleInfo saleInfo;
 }
