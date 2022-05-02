@@ -1,0 +1,60 @@
+Arguments: 
+  /home/elvis/.nvm/versions/node/v16.13.2/bin/node /home/elvis/.nvm/versions/node/v16.13.2/bin/yarn
+
+PATH: 
+  /home/elvis/.nvm/versions/node/v16.13.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/elvis/Android/Sdk/emulator:/home/elvis/Android/Sdk/tools:/home/elvis/Android/Sdk/tools/bin:/home/elvis/Android/Sdk/platform-tools:/home/elvis/android-studio/bin:/usr/local/go/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "api2-backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts"
+    },
+    "devDependencies": {
+      "@types/bcrypt": "^5.0.0",
+      "@types/express": "^4.17.13",
+      "@types/jsonwebtoken": "^8.5.8",
+      "@types/node": "^17.0.21",
+      "@types/nodemailer": "^6.4.4",
+      "@typescript-eslint/eslint-plugin": "^5.12.1",
+      "@typescript-eslint/parser": "^5.12.1",
+      "ts-node-dev": "^1.1.8",
+      "typescript": "^4.5.5"
+    },
+    "dependencies": {
+      "bcrypt": "^5.0.1",
+      "class-transformer": "^0.5.1",
+      "dotenv": "^16.0.0",
+      "express": "^4.17.3",
+      "express-async-errors": "^3.1.1",
+      "handlebars": "^4.7.7",
+      "jsonwebtoken": "^8.5.1",
+      "mongodb": "^3.6.0",
+      "nodemailer": "^6.7.2",
+      "reflect-metadata": "^0.1.13",
+      "tsyringe": "^4.6.0",
+      "typeorm": "^0.2.44"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
