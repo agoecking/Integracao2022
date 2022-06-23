@@ -1,0 +1,9 @@
+services:
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    ports:
+      - 5672:5672
+      - ${RABBIT_PORT_OS}:${RABBIT_PORT_CONTAINER}
+    environment:
+      - RABBITMQ_DEFAULT_USER=${RABBIT_USER}
+      - RABBITMQ_DEFAULT_PASS=${RABBIT_PASS}
