@@ -31,7 +31,7 @@ class CreateLivroUseCase {
   }
 
   async createLivro(isbn: string): Promise<ILivroDTO> {
-    const url = `${process.env.API2_URL}/book?isbn=${isbn}`;
+    const url = `${process.env.API3_URL}/book?isbn=${isbn}`;
 
     const urlSettings = {
       rejectUnauthorized: false,
